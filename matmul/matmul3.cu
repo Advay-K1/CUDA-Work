@@ -4,7 +4,8 @@ A --> [M, K]
 B --> [K, N]
 C --> [M, N]
 
-Optimization --> 
+Optimization --> Applied simple tiling logic where we load tiles of A and B into shared memory
+and compute matmuls for these tiles and write back to HBM
 */
 
 #include <iostream>
